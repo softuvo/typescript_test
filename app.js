@@ -8,7 +8,7 @@ var cors = require("cors");
 var dotenv = require('dotenv');
 var bodyParser = require('body-parser');
 var app = express();
-var PORT = process.env.PORT || 4000;
+var PORT = process.env.PORT || 4004;
 app.use(cors("*"));
 app.use(routes_1["default"]);
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));

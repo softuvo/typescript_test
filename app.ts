@@ -9,7 +9,7 @@ var bodyParser = require('body-parser')
 
 const app = express();
 
-const PORT: string | number = process.env.PORT || 4000
+const PORT: string | number = process.env.PORT || 4004
 
 app.use(cors("*"))
 app.use(todoRoutes)
